@@ -50,17 +50,17 @@ def main(root_folder: Path = "./datasets"):
             filename = f"{image_id}.txt"
             x, y, w, h = annotation["bbox"]
 
-            # 이미지 크기 찾기
+            
             img_info = next(img for img in bigjson["images"] if img["id"] == image_id)
             img_w, img_h = img_info["width"], img_info["height"]
 
-            # YOLO 정규화
+            
             x_c = (x + w / 2) / img_w
             y_c = (y + h / 2) / img_h
             nw  = w / img_w
             nh  = h / img_h
 
-            category_id = annotation["category_id"]  # 이미 0~10이면 그대로, 1~11이면 -1 해줘야 함
+            category_id = annotation["category_id"]  
             with open(root_folder / "labels" / folder / filename, "a") as f:
                 f.write(f"{category_id} {x_c:.6f} {y_c:.6f} {nw:.6f} {nh:.6f}\n")
 
