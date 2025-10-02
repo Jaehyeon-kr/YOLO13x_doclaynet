@@ -31,7 +31,11 @@
 5. Use `check_val_visual_score.ipynb` (evaluation code notebook) to visualize bounding boxes.
 6. After monitoring the results, execute `make_zip.ipynb` to generate the final submission zip file.
 
+## NOTE 
 
+1. This is not full repository.(Because easyocr, ultralytics, etc .. are empty folders. Just architecture)
+2. If you want use this code, then follow **the User Guideline**.
+3. 
 ## Reference 
 
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception (Mengqi Lei et. al, 2025 CVPR)
