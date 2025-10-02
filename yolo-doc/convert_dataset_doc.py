@@ -58,7 +58,7 @@ def main(root_folder: Path = "./datasets_doc"):
             nw  = w / img_w
             nh  = h / img_h
 
-            category_id = annotation["category_id"]  # 이미 0~10이면 그대로, 1~11이면 -1 해줘야 함
+            category_id = annotation["category_id"]  
             with open(root_folder / "labels" / folder / filename, "a") as f:
                 f.write(f"{category_id} {x_c:.6f} {y_c:.6f} {nw:.6f} {nh:.6f}\n")
 
