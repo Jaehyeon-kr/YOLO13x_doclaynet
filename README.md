@@ -28,7 +28,7 @@
    - You can get here -> https://huggingface.co/felflare/EasyOCR-weights/tree/main here.
    - For using our weights, Please contact us. (qmdlghfl2@gmail.com)
 4. Run `script.py`.
-5. Use `평가산식코드.ipynb` (evaluation code notebook) to visualize bounding boxes.
+5. Use `check_val_visual_score.ipynb` (evaluation code notebook) to visualize bounding boxes.
 6. After monitoring the results, execute `make_zip.ipynb` to generate the final submission zip file.
 
 
