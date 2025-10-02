@@ -40,3 +40,4 @@
 
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception (Mengqi Lei et. al, 2025 CVPR)
 - https://github.com/iMoonLab/yolov13
+- https://github.com/JaidedAI/EasyOCR
