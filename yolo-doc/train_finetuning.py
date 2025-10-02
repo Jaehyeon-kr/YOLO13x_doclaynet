@@ -11,8 +11,8 @@ def main(
     seed: int = 42,
     mosaic: float=0.4,
     copy_paste: float=0.4,
-    hsv_v: float = 0.4,                  # 명도 약간
-
+    hsv_v: float = 0.4,          
+    
 ):
     try:
         from clearml import Task
@@ -27,7 +27,7 @@ def main(
     model = YOLO(base_model)
     model.train(
         data=datasets, epochs=epochs, imgsz=imgsz, batch=batch, seed=seed, patience=20, copy_paste=copy_paste, mosaic=mosaic,hsv_v=hsv_v,
-    save_period=1 ,lr0=0.001 # 모든 에폭마다 weight 저장,
+    save_period=1 ,lr0=0.001
     )
 
 
