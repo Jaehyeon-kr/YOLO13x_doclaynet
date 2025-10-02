@@ -16,7 +16,7 @@
 2. Download the **DocLayNet 30k** dataset.
 3. Pre-train `yolov13x.pt` (from the YOLOv13 GitHub repository) on the DocLayNet dataset.
 4. Fine-tune the model according to the slides/guidelines.
-5. Place the final trained `.pt` model into the `submit_381/model` folder.
+5. Place the final trained `.pt` model into the `./model` folder.
 
 ---
 ## User Guideline
