@@ -1,7 +1,8 @@
 ## YOLO13x_doclaynet 
 
-![YOLO13x_doclaynet result](TEST.png)
-
+<p align="center">
+  <img src="TEST.png" alt="YOLO13x_doclaynet 결과" width="300"/>
+</p>
 
 # Solution
 
