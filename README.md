@@ -19,15 +19,15 @@
 5. Place the final trained `.pt` model into the `submit_381/model` folder.
 
 ---
-
-## `<submit_381>` Folder
-
 1. Clone the **EasyOCR** repository.
-2. Download the three EasyOCR pretrained weights and place them inside the `model` folder.
+2. Clone the **Yolo13v** repository and get ultralytics folder copy and paste.
+3. Download the three EasyOCR pretrained weights and place them inside the `model` folder.
    - **Note:** No additional fine-tuning was performed, and the results were actually better without fine-tuning.
-3. Run `script.py`.
-4. Use `평가산식코드.ipynb` (evaluation code notebook) to visualize bounding boxes.
-5. After monitoring the results, execute `make_zip.ipynb` to generate the final submission zip file.
+   - You can get here -> https://huggingface.co/felflare/EasyOCR-weights/tree/main here.
+   - For using our weights, Please contact us. (qmdlghfl2@gmail.com)
+4. Run `script.py`.
+5. Use `평가산식코드.ipynb` (evaluation code notebook) to visualize bounding boxes.
+6. After monitoring the results, execute `make_zip.ipynb` to generate the final submission zip file.
 
 
 ## Reference 
