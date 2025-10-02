@@ -35,7 +35,7 @@
 
 1. This is not full repository.(Because easyocr, ultralytics, etc .. are empty folders. Just architecture)
 2. If you want use this code, then follow **the User Guideline**.
-3. 
+
 ## Reference 
 
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception (Mengqi Lei et. al, 2025 CVPR)
