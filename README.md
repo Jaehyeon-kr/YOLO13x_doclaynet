@@ -19,6 +19,8 @@
 5. Place the final trained `.pt` model into the `submit_381/model` folder.
 
 ---
+## User Guideline
+
 1. Clone the **EasyOCR** repository.
 2. Clone the **Yolo13v** repository and get ultralytics folder copy and paste.
 3. Download the three EasyOCR pretrained weights and place them inside the `model` folder.
